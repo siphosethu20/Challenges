@@ -1,0 +1,57 @@
+head{
+    columns: Black;
+}
+h1{
+    size: 20px;
+    color: black;
+    font-style: inherit;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100%;
+    background: #b8b8b8;
+    width: 100%;
+    box-sizing: border-box;
+}
+header .logo{
+    color: green;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+
+
+p{
+    font-size: 20px;
+    font-family:serif;
+    font-style:normal;
+}
+
+ul li a{
+    color: black;
+    size: 20px;
+    list-style-type: upper-alpha;
+}
